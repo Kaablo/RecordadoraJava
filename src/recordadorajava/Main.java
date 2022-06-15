@@ -3,7 +3,7 @@ import java.util.Properties;
 import java.util.Scanner;
 
 
-public class App {
+public class Main {
     public static void main(String[] args) throws Exception {
         System.out.print("\n      -----------------------------------------------------------------------------------------------\n         "
                 + "Bienvenido/a, soy ReVi, tu recordadora virtual. ¿A qué recuerdos te gustaría acceder hoy?\n\n         "
@@ -14,18 +14,12 @@ public class App {
         
         String eleccion = sca.nextLine();
         
-        
+        Accion(eleccion);
             
         }
-
+    
+    static void Accion(String letra){
+        
+        
     }
 }
-//Creamos una superclase memorias y las otras dos subclases (Persona y Lista). No creamos la tercera (eventos) ya que no tiene nuevos atributos, usaremos memorias
-
-
-    
- //Creamos los metodos del programa
-}
-
-
-
