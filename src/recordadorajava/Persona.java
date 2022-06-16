@@ -14,6 +14,8 @@ public class Persona extends Memorias{
     private int telefono=0;
 
     //constructor
+    public Persona (){}
+    
     public Persona (int tel, String desc){
         super();
         tel=telefono;   
